@@ -19,7 +19,7 @@ function writePassword() {
  
  
   while ((isNaN(store1))  ||  (store > 128 || store < 8)) { //isnan true if value is not a number
-    alert("Password length must be between 8-128 characters");
+    alert("Password length must be between 8-128 numerical characters, string input is not accepted");
     var store = prompt("Please enter your desired password length", "8-128 characters");
     store1 =Number(store);//True or flase
     console.log(store1);
