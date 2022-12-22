@@ -29,7 +29,7 @@ function writePassword() {
 
  var char1 = prompt("Would you like your password to contain lowercase characters", "Yes or No");
  while (char1 !== "Yes" && char1 !== "yes" && char1 !== "No" && char1 !== "no"){
-  alert("Please respond with wither Yes or No");
+  alert("Please respond with either Yes or No");
   var char1 = prompt("Would you like your password to contain lowercase characters", "Yes or No");
  }
 
@@ -37,7 +37,7 @@ function writePassword() {
 
  var char2 = prompt("Would you like your password to contain Uppercase characters", "Yes or No");
  while (char2 !== "Yes" && char2 !== "yes" && char2 !== "No" && char2 !== "no"){
-  alert("Please respond with wither Yes or No");
+  alert("Please respond with either Yes or No");
   var char2 = prompt("Would you like your password to contain Uppercase characters", "Yes or No");
  }
 
@@ -45,7 +45,7 @@ function writePassword() {
 
  var char3 = prompt("Would you like your password to contain Numeric characters", "Yes or No");
  while (char3 !== "Yes" && char3 !== "yes" && char3 !== "No" && char3 !== "no"){
-  alert("Please respond with wither Yes or No");
+  alert("Please respond with either Yes or No");
   var char3 = prompt("Would you like your password to contain Numeric characters", "Yes or No");
  }
 
@@ -53,7 +53,7 @@ function writePassword() {
 
  var char4 = prompt("Would you like your password to contain Special characters", "Yes or No");
  while (char4 !== "Yes" && char4 !== "yes" && char4 !== "No" && char4 !== "no"){
-  alert("Please respond with wither Yes or No");
+  alert("Please respond with either Yes or No");
   var char4 = prompt("Would you like your password to contain Special characters", "Yes or No");
  }
 
